@@ -149,7 +149,7 @@ else:
             sns.violinplot(
                 data=df, 
                 x="Department", 
-                y="Base_Salary",  # 對應新的合規欄位
+                y="Base_Salary", 
                 hue="Gender", 
                 split=True, 
                 inner="quart", 
